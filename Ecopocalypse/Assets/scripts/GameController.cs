@@ -6,8 +6,9 @@ public class GameController : MonoBehaviour {
 
     public static GameController Instance;
 
-    public int electricity = 100;
-    public int food = 100;
+    public float electricity = 1f;
+    public float food = 1f;
+    public float localTemp = 0.1f;
 
     private void Awake()
     {
