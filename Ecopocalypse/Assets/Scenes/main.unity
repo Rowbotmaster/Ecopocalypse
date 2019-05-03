@@ -528,6 +528,7 @@ MonoBehaviour:
   optionTwo: {fileID: 32791563}
   optionThree: {fileID: 1272038729}
   optionFour: {fileID: 0}
+  description: {fileID: 1155781150}
   nextLevel: 2
   optionOneHeatLoss: 0.4
   optionOneElectricityLoss: 0.3

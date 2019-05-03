@@ -17,6 +17,8 @@ public class TestNarrative : MonoBehaviour
     public GameObject optionThree;
     public GameObject optionFour;
 
+    public Text description;
+
     public int nextLevel = 1;
 
     public float optionOneHeatLoss = 0.1f;
@@ -32,7 +34,9 @@ public class TestNarrative : MonoBehaviour
     // Use this for initialization
     void Start ()
     {
-        
+        foodBar.fillAmount = GameController.Instance.food;
+        localTempBar.fillAmount = GameController.Instance.localTemp;
+        electricityBar.fillAmount = GameController.Instance.electricity;
 
         if (GameController.Instance.electricity == 0f)
         {
@@ -41,16 +45,23 @@ public class TestNarrative : MonoBehaviour
 
         if (GameController.Instance.food == 0f)
         {
+            description.text = "you starve to death";
+
             optionOne.SetActive(false);
             optionTwo.SetActive(false);
             optionThree.SetActive(false);
             optionFour.SetActive(false);
         }
 
-        foodBar.fillAmount = GameController.Instance.food;
-        localTempBar.fillAmount = GameController.Instance.localTemp;
-        electricityBar.fillAmount = GameController.Instance.electricity;
+        if (GameController.Instance.localTemp == 1f)
+        {
+            description.text = "you are caught by a heat wave and overheat";
 
+            optionOne.SetActive(false);
+            optionTwo.SetActive(false);
+            optionThree.SetActive(false);
+            optionFour.SetActive(false);
+        }
     }
 
     // Update is called once per frame
