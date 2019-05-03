@@ -528,6 +528,16 @@ MonoBehaviour:
   optionTwo: {fileID: 32791563}
   optionThree: {fileID: 1272038729}
   optionFour: {fileID: 0}
+  nextLevel: 2
+  optionOneHeatLoss: 0.4
+  optionOneElectricityLoss: 0.3
+  optionOneFoodLoss: 0.2
+  optionTwoGain: 0.5
+  optionTwoLoss: 0.2
+  optionThreeGain: 0.5
+  optionThreeLoss: 0.1
+  optionFourGain: 0.1
+  optionFourLoss: 0.1
 --- !u!114 &362422320
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -687,7 +697,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 534669902}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: 0, y: 14.17, z: -2600}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

@@ -32,9 +32,7 @@ public class TestNarrative : MonoBehaviour
     // Use this for initialization
     void Start ()
     {
-        electricityBar.fillAmount = GameController.Instance.electricity;
-        foodBar.fillAmount = GameController.Instance.food;
-        localTempBar.fillAmount = GameController.Instance.localTemp;
+        
 
         if (GameController.Instance.electricity == 0f)
         {
@@ -48,6 +46,10 @@ public class TestNarrative : MonoBehaviour
             optionThree.SetActive(false);
             optionFour.SetActive(false);
         }
+
+        foodBar.fillAmount = GameController.Instance.food;
+        localTempBar.fillAmount = GameController.Instance.localTemp;
+        electricityBar.fillAmount = GameController.Instance.electricity;
 
     }
 
