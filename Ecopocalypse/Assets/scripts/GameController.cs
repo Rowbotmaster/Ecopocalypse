@@ -9,6 +9,9 @@ public class GameController : MonoBehaviour {
     public float electricity = 1f;
     public float food = 1f;
     public float localTemp = 0.1f;
+    public int backTrack = 0;
+    public float latitudeFloat = 0f;
+    public bool petrolCar = false;
 
     private void Awake()
     {
