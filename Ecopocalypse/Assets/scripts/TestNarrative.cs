@@ -19,6 +19,7 @@ public class TestNarrative : MonoBehaviour
 
     public Text description;
     public Text latitudeText;
+    public Text chargeFuel;
 
     public float optionOnePosOne = 0.1f;
     public float optionOnePosTwo = 0.1f;
@@ -69,6 +70,15 @@ public class TestNarrative : MonoBehaviour
     // Use this for initialization
     void Start ()
     {
+        if (GameController.Instance.petrolCar == true)
+        {
+            chargeFuel.text = "Fuel";
+        }
+        else
+        {
+            chargeFuel.text = "Charge";
+        }
+
         foodBar.fillAmount = GameController.Instance.food;
         localTempBar.fillAmount = GameController.Instance.localTemp;
         electricityBar.fillAmount = GameController.Instance.electricity;

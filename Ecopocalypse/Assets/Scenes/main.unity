@@ -529,16 +529,47 @@ MonoBehaviour:
   optionThree: {fileID: 1272038729}
   optionFour: {fileID: 0}
   description: {fileID: 1155781150}
-  nextLevel: 2
-  optionOneHeatLoss: 0.4
-  optionOneElectricityLoss: 0.3
-  optionOneFoodLoss: 0.2
-  optionTwoGain: 0.5
-  optionTwoLoss: 0.2
-  optionThreeGain: 0.5
-  optionThreeLoss: 0.1
-  optionFourGain: 0.1
-  optionFourLoss: 0.1
+  latitudeText: {fileID: 0}
+  optionOnePosOne: 0.1
+  optionOnePosTwo: 0.1
+  optionOneNegOne: 0.1
+  optionOneNegTwo: 0.1
+  optionOneNegThree: 0.1
+  optionTwoPosOne: 0.1
+  optionTwoPosTwo: 0.1
+  optionTwoNegOne: 0.1
+  optionTwoNegTwo: 0.1
+  optionTwoNegThree: 0.1
+  optionThreePosOne: 0.1
+  optionThreePosTwo: 0.1
+  optionThreeNegOne: 0.1
+  optionThreeNegTwo: 0.1
+  optionThreeNegThree: 0.1
+  optionFourPosOne: 0.1
+  optionFourPosTwo: 0.1
+  optionFourNegOne: 0.1
+  optionFourNegTwo: 0.1
+  optionFourNegThree: 0.1
+  opOnePetrol: 0
+  opTwoPetrol: 0
+  opThreePetrol: 0
+  opFourPetrol: 0
+  buttFuncOne: 0
+  buttFuncTwo: 0
+  buttFuncThree: 0
+  buttFuncFour: 0
+  opOneScene: 1
+  opTwoScene: 1
+  opThreeScene: 1
+  opFourScene: 1
+  opOneMove: 0
+  opTwoMove: 0
+  opThreeMove: 0
+  opFourMove: 0
+  opOneOnce: 1
+  opTwoOnce: 1
+  opThreeOnce: 1
+  opFourOnce: 1
 --- !u!114 &362422320
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -619,6 +650,7 @@ RectTransform:
   - {fileID: 1672638074}
   - {fileID: 1933077135}
   - {fileID: 792326673}
+  - {fileID: 1537797972}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1021,6 +1053,9 @@ MonoBehaviour:
   electricity: 1
   food: 1
   localTemp: 0.1
+  backTrack: 0
+  latitudeFloat: 0
+  petrolCar: 0
 --- !u!224 &872529390
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1200,7 +1235,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3, y: -6}
+  m_AnchoredPosition: {x: 130, y: -6}
   m_SizeDelta: {x: 800, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1145715443
@@ -1433,6 +1468,78 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1374414275}
+  m_CullTransparentMesh: 0
+--- !u!1 &1537797971
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1619534082112850, guid: 94d401723da367041bef26a2bf5b90df,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1537797972}
+  - component: {fileID: 1537797974}
+  - component: {fileID: 1537797973}
+  m_Layer: 5
+  m_Name: test
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1537797972
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 224647089870955204, guid: 94d401723da367041bef26a2bf5b90df,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1537797971}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.2562844, y: 0.80632114, z: 0.44677}
+  m_Children: []
+  m_Father: {fileID: 362422323}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -237, y: 37}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1537797973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 114102836909208184, guid: 94d401723da367041bef26a2bf5b90df,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1537797971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -98529514, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.5188679, g: 0.5188679, b: 0.5188679, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Texture: {fileID: 0}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!222 &1537797974
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 222849007242329722, guid: 94d401723da367041bef26a2bf5b90df,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1537797971}
   m_CullTransparentMesh: 0
 --- !u!1 &1648296513
 GameObject:
