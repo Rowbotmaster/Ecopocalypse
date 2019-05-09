@@ -17,6 +17,10 @@ public class TestNarrative : MonoBehaviour
     public GameObject optionThree;
     public GameObject optionFour;
 
+    public GameObject driving;
+    public GameObject boiling;
+    public GameObject engine;
+
     public Text description;
     public Text latitudeText;
     public Text chargeFuel;
@@ -187,6 +191,35 @@ public class TestNarrative : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 
+    public void OpOneDrive()
+    {
+        SceneManager.LoadScene(opOneScene);
+        optionOne.SetActive(true);
+    }
+
+    public void OpTwoDrive()
+    {
+        SceneManager.LoadScene(opTwoScene);
+        optionTwo.SetActive(true);
+    }
+
+    public void OpThreeDrive()
+    {
+        SceneManager.LoadScene(opThreeScene);
+        optionThree.SetActive(true);
+    }
+
+    public void OpFourDrive()
+    {
+        SceneManager.LoadScene(opFourScene);
+        optionFour.SetActive(true);
+    }
+
+    public void SilenceBoil()
+    {
+        boiling.SetActive(false);
+    }
+
     public void OptionOne()
     {
         if (buttFuncOne == 0)
@@ -222,7 +255,16 @@ public class TestNarrative : MonoBehaviour
 
             GameController.Instance.backTracked = false;
 
-            SceneManager.LoadScene(opOneScene);
+            driving.SetActive(true);
+
+            if (GameController.Instance.petrolCar == true)
+            {
+                engine.SetActive(true);
+            }
+
+            optionOne.SetActive(false);
+
+            Invoke("OpOneDrive", 14f);
         }
 
         if (buttFuncOne == 1)
@@ -317,6 +359,10 @@ public class TestNarrative : MonoBehaviour
                 optionThree.SetActive(false);
                 optionFour.SetActive(false);
             }
+
+            boiling.SetActive(true);
+
+            Invoke("SilenceBoil", 3f);
         }
 
         if (buttFuncOne == 2)
@@ -492,7 +538,16 @@ public class TestNarrative : MonoBehaviour
 
             GameController.Instance.backTracked = false;
 
-            SceneManager.LoadScene(opTwoScene);
+            driving.SetActive(true);
+
+            if (GameController.Instance.petrolCar == true)
+            {
+                engine.SetActive(true);
+            }
+
+            optionTwo.SetActive(false);
+
+            Invoke("OpTwoDrive", 14f);
         }
 
         if (buttFuncTwo == 1)
@@ -587,6 +642,10 @@ public class TestNarrative : MonoBehaviour
                 optionThree.SetActive(false);
                 optionFour.SetActive(false);
             }
+
+            boiling.SetActive(true);
+
+            Invoke("SilenceBoil", 3f);
         }
 
         if (buttFuncTwo == 2)
@@ -762,7 +821,16 @@ public class TestNarrative : MonoBehaviour
 
             GameController.Instance.backTracked = false;
 
-            SceneManager.LoadScene(opThreeScene);
+            driving.SetActive(true);
+
+            if (GameController.Instance.petrolCar == true)
+            {
+                engine.SetActive(true);
+            }
+
+            optionThree.SetActive(false);
+
+            Invoke("OpThreeDrive", 14f);
         }
 
         if (buttFuncThree == 1)
@@ -857,6 +925,10 @@ public class TestNarrative : MonoBehaviour
                 optionThree.SetActive(false);
                 optionFour.SetActive(false);
             }
+
+            boiling.SetActive(true);
+
+            Invoke("SilenceBoil", 3f);
         }
 
         if (buttFuncThree == 2)
@@ -1032,7 +1104,16 @@ public class TestNarrative : MonoBehaviour
 
             GameController.Instance.backTracked = false;
 
-            SceneManager.LoadScene(opFourScene);
+            driving.SetActive(true);
+
+            if (GameController.Instance.petrolCar == true)
+            {
+                engine.SetActive(true);
+            }
+
+            optionFour.SetActive(false);
+
+            Invoke("OpFourDrive", 14f);
         }
 
         if (buttFuncFour == 1)
@@ -1127,6 +1208,10 @@ public class TestNarrative : MonoBehaviour
                 optionThree.SetActive(false);
                 optionFour.SetActive(false);
             }
+
+            boiling.SetActive(true);
+
+            Invoke("SilenceBoil", 3f);
         }
 
         if (buttFuncFour == 2)
