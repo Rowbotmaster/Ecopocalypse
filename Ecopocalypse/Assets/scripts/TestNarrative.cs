@@ -61,6 +61,8 @@ public class TestNarrative : MonoBehaviour
     public int opThreeScene = 1;
     public int opFourScene = 1;
 
+    public int backTrack = 0;
+
     public bool opOneMove = false;
     public bool opTwoMove = false;
     public bool opThreeMove = false;
@@ -250,8 +252,6 @@ public class TestNarrative : MonoBehaviour
             {
                 GameController.Instance.localTemp = 0f;
             }
-
-            GameController.Instance.backTrack = (opOneScene-1);
 
             GameController.Instance.backTracked = false;
 
@@ -473,8 +473,6 @@ public class TestNarrative : MonoBehaviour
                 GameController.Instance.localTemp = 1f;
             }
 
-            SceneManager.LoadScene(GameController.Instance.backTrack);
-
             electricityBar.fillAmount = GameController.Instance.electricity;
             foodBar.fillAmount = GameController.Instance.food;
             localTempBar.fillAmount = GameController.Instance.localTemp;
@@ -500,6 +498,8 @@ public class TestNarrative : MonoBehaviour
             }
 
             GameController.Instance.backTracked = true;
+
+            SceneManager.LoadScene(backTrack);
         }
     }
 
@@ -533,8 +533,6 @@ public class TestNarrative : MonoBehaviour
             {
                 GameController.Instance.localTemp = 0f;
             }
-
-            GameController.Instance.backTrack = (opTwoScene - 1);
 
             GameController.Instance.backTracked = false;
 
@@ -756,8 +754,6 @@ public class TestNarrative : MonoBehaviour
                 GameController.Instance.localTemp = 1f;
             }
 
-            SceneManager.LoadScene(GameController.Instance.backTrack);
-
             electricityBar.fillAmount = GameController.Instance.electricity;
             foodBar.fillAmount = GameController.Instance.food;
             localTempBar.fillAmount = GameController.Instance.localTemp;
@@ -783,6 +779,7 @@ public class TestNarrative : MonoBehaviour
             }
 
             GameController.Instance.backTracked = true;
+            SceneManager.LoadScene(backTrack);
         }
     }
 
@@ -816,8 +813,6 @@ public class TestNarrative : MonoBehaviour
             {
                 GameController.Instance.localTemp = 0f;
             }
-
-            GameController.Instance.backTrack = (opThreeScene - 1);
 
             GameController.Instance.backTracked = false;
 
@@ -1039,8 +1034,6 @@ public class TestNarrative : MonoBehaviour
                 GameController.Instance.localTemp = 1f;
             }
 
-            SceneManager.LoadScene(GameController.Instance.backTrack);
-
             electricityBar.fillAmount = GameController.Instance.electricity;
             foodBar.fillAmount = GameController.Instance.food;
             localTempBar.fillAmount = GameController.Instance.localTemp;
@@ -1066,6 +1059,7 @@ public class TestNarrative : MonoBehaviour
             }
 
             GameController.Instance.backTracked = true;
+            SceneManager.LoadScene(backTrack);
         }
     }
 
@@ -1099,8 +1093,6 @@ public class TestNarrative : MonoBehaviour
             {
                 GameController.Instance.localTemp = 0f;
             }
-
-            GameController.Instance.backTrack = (opFourScene - 1);
 
             GameController.Instance.backTracked = false;
 
@@ -1321,8 +1313,6 @@ public class TestNarrative : MonoBehaviour
                 GameController.Instance.localTemp = 1f;
             }
 
-            SceneManager.LoadScene(GameController.Instance.backTrack);
-
             electricityBar.fillAmount = GameController.Instance.electricity;
             foodBar.fillAmount = GameController.Instance.food;
             localTempBar.fillAmount = GameController.Instance.localTemp;
@@ -1348,6 +1338,7 @@ public class TestNarrative : MonoBehaviour
             }
 
             GameController.Instance.backTracked = true;
+            SceneManager.LoadScene(backTrack);
         }
     }
 }
