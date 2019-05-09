@@ -12,6 +12,7 @@ public class GameController : MonoBehaviour {
     public int backTrack = 0;
     public float latitudeFloat = 0f;
     public bool petrolCar = false;
+    public bool backTracked = false;
 
     private void Awake()
     {

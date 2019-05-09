@@ -144,6 +144,29 @@ public class TestNarrative : MonoBehaviour
             optionThree.SetActive(false);
             optionFour.SetActive(false);
         }
+
+        if (GameController.Instance.backTracked == true)
+        {
+            if (buttFuncOne == 3)
+            {
+                optionOne.SetActive(false);
+            }
+
+            if (buttFuncTwo == 3)
+            {
+                optionTwo.SetActive(false);
+            }
+
+            if (buttFuncThree == 3)
+            {
+                optionThree.SetActive(false);
+            }
+
+            if (buttFuncFour == 3)
+            {
+                optionFour.SetActive(false);
+            }
+        }
     }
 
     // Update is called once per frame
@@ -196,6 +219,8 @@ public class TestNarrative : MonoBehaviour
             }
 
             GameController.Instance.backTrack = (opOneScene-1);
+
+            GameController.Instance.backTracked = false;
 
             SceneManager.LoadScene(opOneScene);
         }
@@ -427,6 +452,8 @@ public class TestNarrative : MonoBehaviour
                 optionThree.SetActive(false);
                 optionFour.SetActive(false);
             }
+
+            GameController.Instance.backTracked = true;
         }
     }
 
@@ -462,6 +489,8 @@ public class TestNarrative : MonoBehaviour
             }
 
             GameController.Instance.backTrack = (opTwoScene - 1);
+
+            GameController.Instance.backTracked = false;
 
             SceneManager.LoadScene(opTwoScene);
         }
@@ -693,6 +722,8 @@ public class TestNarrative : MonoBehaviour
                 optionThree.SetActive(false);
                 optionFour.SetActive(false);
             }
+
+            GameController.Instance.backTracked = true;
         }
     }
 
@@ -728,6 +759,8 @@ public class TestNarrative : MonoBehaviour
             }
 
             GameController.Instance.backTrack = (opThreeScene - 1);
+
+            GameController.Instance.backTracked = false;
 
             SceneManager.LoadScene(opThreeScene);
         }
@@ -959,6 +992,8 @@ public class TestNarrative : MonoBehaviour
                 optionThree.SetActive(false);
                 optionFour.SetActive(false);
             }
+
+            GameController.Instance.backTracked = true;
         }
     }
 
@@ -994,6 +1029,8 @@ public class TestNarrative : MonoBehaviour
             }
 
             GameController.Instance.backTrack = (opFourScene - 1);
+
+            GameController.Instance.backTracked = false;
 
             SceneManager.LoadScene(opFourScene);
         }
@@ -1224,6 +1261,8 @@ public class TestNarrative : MonoBehaviour
                 optionThree.SetActive(false);
                 optionFour.SetActive(false);
             }
+
+            GameController.Instance.backTracked = true;
         }
     }
 }
