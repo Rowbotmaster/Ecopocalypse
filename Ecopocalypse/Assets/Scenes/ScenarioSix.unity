@@ -183,8 +183,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Carly: "What we need to do is be sure we have enough food to make it through
-    the trip. We need to pack more supplies" (Increase the amount of food)'
+  m_Text: 'Carly: This hospital looks abandoned. But even so we might be able to use
+    some of equipment inside to fill up the car (Increase amount of Electricity)'
 --- !u!222 &2086199
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -843,11 +843,11 @@ MonoBehaviour:
   optionFourNegThree: 0.1
   opOnePetrol: 0
   opTwoPetrol: 0
-  opThreePetrol: 1
+  opThreePetrol: 0
   opFourPetrol: 0
-  buttFuncOne: 0
-  buttFuncTwo: 2
-  buttFuncThree: 1
+  buttFuncOne: 2
+  buttFuncTwo: 1
+  buttFuncThree: 0
   buttFuncFour: 0
   opOneScene: 1
   opTwoScene: 1
@@ -1637,10 +1637,10 @@ MonoBehaviour:
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Herold: "We shouldn''t waste time just sitting here. We need to find a
-    shelter with other survivors" (Move forward to next area)'
+  m_Text: 'Rad: It''s a good thing we found this hospital. We should head inside and
+    look to see if any food was left behind (Increase amount of Food)'
 --- !u!222 &1436595451
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1930,11 +1930,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Three survivors have gathered outside of Carly, one of the survivors house
-    as they had spent some time at her place during the time of the ecopocalypse as
-    it would all begin at a time the three friends were meeting up. \nHerold, with
-    his engineering skills the three of them managed to fix the car she had. \nRad
-    had suggested they do something and the three came up with ideas of what to do."
+  m_Text: Finally making it out of the desert they come across a hospital as they
+    arrive outside and look around to see signs of people rushing out of the hospital
+    but no signs of anyone remaining within the building. It also seemed like the
+    building was left like this for quite some time so there was a chance they might
+    find something that might have been left behind
 --- !u!222 &1769070133
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2183,10 +2183,10 @@ MonoBehaviour:
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Rad: "The car may be fixed but we will need more supplies to keep the car
-    going" (Increase the amount of Electricity/Fuel)'
+  m_Text: 'Herold: "It''s just gonna be empty. I''d rather we keep moving as far away
+    from here as possible" (Move forward to Rising Shore)'
 --- !u!222 &2039864603
 CanvasRenderer:
   m_ObjectHideFlags: 0

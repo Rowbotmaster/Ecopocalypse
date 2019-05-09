@@ -855,7 +855,7 @@ MonoBehaviour:
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: 'Herold: "We won''t be able ot make it through this heat with what we have.
     We need to go back and get more supplies" (Move back to Mountain Pass)'
@@ -1651,7 +1651,7 @@ MonoBehaviour:
   optionFourNegThree: 0.1
   opOnePetrol: 0
   opTwoPetrol: 0
-  opThreePetrol: 1
+  opThreePetrol: 0
   opFourPetrol: 0
   buttFuncOne: 0
   buttFuncTwo: 1
