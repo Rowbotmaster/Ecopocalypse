@@ -226,7 +226,7 @@ public class TestNarrative : MonoBehaviour
     {
         if (buttFuncOne == 0)
         {
-            if (GameController.Instance.electricity < optionOneNegOne)
+            if (GameController.Instance.electricity > optionOneNegOne)
             {
                 GameController.Instance.electricity -= optionOneNegOne;
             }
@@ -235,7 +235,7 @@ public class TestNarrative : MonoBehaviour
                 GameController.Instance.electricity = 0f;
             }
 
-            if (GameController.Instance.food < optionOneNegOne)
+            if (GameController.Instance.food > optionOneNegOne)
             {
                 GameController.Instance.food -= optionOneNegOne;
             }
@@ -313,7 +313,7 @@ public class TestNarrative : MonoBehaviour
                 }
             }
 
-            if (GameController.Instance.food < optionOneNegOne)
+            if (GameController.Instance.food > optionOneNegOne)
             {
                 GameController.Instance.food -= optionOneNegOne;
             }
@@ -396,7 +396,7 @@ public class TestNarrative : MonoBehaviour
                 }
             }
 
-            if (GameController.Instance.electricity < optionOneNegOne)
+            if (GameController.Instance.electricity > optionOneNegOne)
             {
                 GameController.Instance.electricity -= optionOneNegOne;
             }
@@ -446,7 +446,7 @@ public class TestNarrative : MonoBehaviour
 
         if (buttFuncOne == 3)
         {
-            if (GameController.Instance.food < optionOneNegOne)
+            if (GameController.Instance.food > optionOneNegOne)
             {
                 GameController.Instance.food -= optionOneNegOne;
             }
@@ -455,7 +455,7 @@ public class TestNarrative : MonoBehaviour
                 GameController.Instance.food = 0f;
             }
 
-            if (GameController.Instance.electricity < optionOneNegTwo)
+            if (GameController.Instance.electricity > optionOneNegTwo)
             {
                 GameController.Instance.electricity -= optionOneNegTwo;
             }
@@ -507,7 +507,7 @@ public class TestNarrative : MonoBehaviour
     {
         if (buttFuncTwo == 0)
         {
-            if (GameController.Instance.food < optionTwoNegOne)
+            if (GameController.Instance.food > optionTwoNegOne)
             {
                 GameController.Instance.food -= optionTwoNegOne;
             }
@@ -516,7 +516,7 @@ public class TestNarrative : MonoBehaviour
                 GameController.Instance.food = 0f;
             }
 
-            if (GameController.Instance.electricity < optionTwoNegTwo)
+            if (GameController.Instance.electricity > optionTwoNegTwo)
             {
                 GameController.Instance.electricity -= optionTwoNegTwo;
             }
@@ -594,7 +594,7 @@ public class TestNarrative : MonoBehaviour
                 }
             }
 
-            if (GameController.Instance.food < optionTwoNegOne)
+            if (GameController.Instance.food > optionTwoNegOne)
             {
                 GameController.Instance.food -= optionTwoNegOne;
             }
@@ -677,7 +677,7 @@ public class TestNarrative : MonoBehaviour
                 }
             }
 
-            if (GameController.Instance.electricity < optionTwoNegTwo)
+            if (GameController.Instance.electricity > optionTwoNegTwo)
             {
                 GameController.Instance.electricity -= optionTwoNegTwo;
             }
@@ -727,7 +727,7 @@ public class TestNarrative : MonoBehaviour
 
         if (buttFuncTwo == 3)
         {
-            if (GameController.Instance.food < optionTwoNegOne)
+            if (GameController.Instance.food > optionTwoNegOne)
             {
                 GameController.Instance.food -= optionTwoNegOne;
             }
@@ -736,7 +736,7 @@ public class TestNarrative : MonoBehaviour
                 GameController.Instance.food = 0f;
             }
 
-            if (GameController.Instance.electricity < optionTwoNegTwo)
+            if (GameController.Instance.electricity > optionTwoNegTwo)
             {
                 GameController.Instance.electricity -= optionTwoNegTwo;
             }
@@ -787,7 +787,7 @@ public class TestNarrative : MonoBehaviour
     {
         if (buttFuncThree == 0)
         {
-            if (GameController.Instance.food < optionThreeNegOne)
+            if (GameController.Instance.food > optionThreeNegOne)
             {
                 GameController.Instance.food -= optionThreeNegOne;
             }
@@ -796,7 +796,7 @@ public class TestNarrative : MonoBehaviour
                 GameController.Instance.food = 0f;
             }
 
-            if (GameController.Instance.electricity < optionThreeNegTwo)
+            if (GameController.Instance.electricity > optionThreeNegTwo)
             {
                 GameController.Instance.electricity -= optionThreeNegTwo;
             }
@@ -874,7 +874,7 @@ public class TestNarrative : MonoBehaviour
                 }
             }
 
-            if (GameController.Instance.food < optionThreeNegOne)
+            if (GameController.Instance.food > optionThreeNegOne)
             {
                 GameController.Instance.food -= optionThreeNegOne;
             }
@@ -957,7 +957,7 @@ public class TestNarrative : MonoBehaviour
                 }
             }
 
-            if (GameController.Instance.electricity < optionThreeNegTwo)
+            if (GameController.Instance.electricity > optionThreeNegTwo)
             {
                 GameController.Instance.electricity -= optionThreeNegTwo;
             }
@@ -1007,7 +1007,7 @@ public class TestNarrative : MonoBehaviour
 
         if (buttFuncOne == 3)
         {
-            if (GameController.Instance.food < optionThreeNegOne)
+            if (GameController.Instance.food > optionThreeNegOne)
             {
                 GameController.Instance.food -= optionThreeNegOne;
             }
@@ -1016,7 +1016,7 @@ public class TestNarrative : MonoBehaviour
                 GameController.Instance.food = 0f;
             }
 
-            if (GameController.Instance.electricity < optionThreeNegTwo)
+            if (GameController.Instance.electricity > optionThreeNegTwo)
             {
                 GameController.Instance.electricity -= optionThreeNegTwo;
             }
@@ -1067,7 +1067,7 @@ public class TestNarrative : MonoBehaviour
     {
         if (buttFuncFour == 0)
         {
-            if (GameController.Instance.food < optionFourNegOne)
+            if (GameController.Instance.food > optionFourNegOne)
             {
                 GameController.Instance.food -= optionFourNegOne;
             }
@@ -1076,7 +1076,7 @@ public class TestNarrative : MonoBehaviour
                 GameController.Instance.food = 0f;
             }
 
-            if (GameController.Instance.electricity < optionFourNegTwo)
+            if (GameController.Instance.electricity > optionFourNegTwo)
             {
                 GameController.Instance.electricity -= optionFourNegTwo;
             }
@@ -1154,7 +1154,7 @@ public class TestNarrative : MonoBehaviour
                 }
             }
 
-            if (GameController.Instance.food < optionFourNegOne)
+            if (GameController.Instance.food > optionFourNegOne)
             {
                 GameController.Instance.food -= optionFourNegOne;
             }
@@ -1236,7 +1236,7 @@ public class TestNarrative : MonoBehaviour
                     optionFour.SetActive(false);
                 }
             }
-            if (GameController.Instance.electricity < optionFourNegTwo)
+            if (GameController.Instance.electricity > optionFourNegTwo)
             {
                 GameController.Instance.electricity -= optionFourNegTwo;
             }
@@ -1286,7 +1286,7 @@ public class TestNarrative : MonoBehaviour
 
         if (buttFuncFour == 3)
         {
-            if (GameController.Instance.food < optionFourNegOne)
+            if (GameController.Instance.food > optionFourNegOne)
             {
                 GameController.Instance.food -= optionFourNegOne;
             }
@@ -1295,7 +1295,7 @@ public class TestNarrative : MonoBehaviour
                 GameController.Instance.food = 0f;
             }
 
-            if (GameController.Instance.electricity < optionFourNegTwo)
+            if (GameController.Instance.electricity > optionFourNegTwo)
             {
                 GameController.Instance.electricity -= optionFourNegTwo;
             }
