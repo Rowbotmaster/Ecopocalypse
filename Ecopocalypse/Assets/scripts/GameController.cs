@@ -9,7 +9,7 @@ public class GameController : MonoBehaviour {
     public float electricity = 1f;
     public float food = 1f;
     public float localTemp = 0.1f;
-    public float latitudeFloat = 0f;
+    public float latitudeFloat = 20f;
     public bool petrolCar = false;
     public bool backTracked = false;
 

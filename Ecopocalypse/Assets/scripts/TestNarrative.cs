@@ -195,25 +195,57 @@ public class TestNarrative : MonoBehaviour
 
     public void OpOneDrive()
     {
+        GameController.Instance.latitudeFloat += 1;
         SceneManager.LoadScene(opOneScene);
         optionOne.SetActive(true);
     }
 
     public void OpTwoDrive()
     {
+        GameController.Instance.latitudeFloat += 1;
         SceneManager.LoadScene(opTwoScene);
         optionTwo.SetActive(true);
     }
 
     public void OpThreeDrive()
     {
+        GameController.Instance.latitudeFloat += 1;
         SceneManager.LoadScene(opThreeScene);
         optionThree.SetActive(true);
     }
 
     public void OpFourDrive()
     {
+        GameController.Instance.latitudeFloat += 1;
         SceneManager.LoadScene(opFourScene);
+        optionFour.SetActive(true);
+    }
+
+    public void OpOneBackTrack()
+    {
+        GameController.Instance.latitudeFloat -= 1;
+        SceneManager.LoadScene(backTrack);
+        optionOne.SetActive(true);
+    }
+
+    public void OpTwoBackTrack()
+    {
+        GameController.Instance.latitudeFloat -= 1;
+        SceneManager.LoadScene(backTrack);
+        optionTwo.SetActive(true);
+    }
+
+    public void OpThreeBackTrack()
+    {
+        GameController.Instance.latitudeFloat -= 1;
+        SceneManager.LoadScene(backTrack);
+        optionThree.SetActive(true);
+    }
+
+    public void OpFourBackTrack()
+    {
+        GameController.Instance.latitudeFloat -= 1;
+        SceneManager.LoadScene(backTrack);
         optionFour.SetActive(true);
     }
 
@@ -264,7 +296,7 @@ public class TestNarrative : MonoBehaviour
 
             optionOne.SetActive(false);
 
-            Invoke("OpOneDrive", 14f);
+            Invoke("OpOneDrive", 4f);
         }
 
         if (buttFuncOne == 1)
@@ -499,7 +531,7 @@ public class TestNarrative : MonoBehaviour
 
             GameController.Instance.backTracked = true;
 
-            SceneManager.LoadScene(backTrack);
+            Invoke("OpOneBackTrack", 4f);
         }
     }
 
@@ -545,7 +577,7 @@ public class TestNarrative : MonoBehaviour
 
             optionTwo.SetActive(false);
 
-            Invoke("OpTwoDrive", 14f);
+            Invoke("OpTwoDrive", 4f);
         }
 
         if (buttFuncTwo == 1)
@@ -779,7 +811,7 @@ public class TestNarrative : MonoBehaviour
             }
 
             GameController.Instance.backTracked = true;
-            SceneManager.LoadScene(backTrack);
+            Invoke("OpOneBackTrack", 4f);
         }
     }
 
@@ -825,7 +857,7 @@ public class TestNarrative : MonoBehaviour
 
             optionThree.SetActive(false);
 
-            Invoke("OpThreeDrive", 14f);
+            Invoke("OpThreeDrive", 4f);
         }
 
         if (buttFuncThree == 1)
@@ -1059,7 +1091,7 @@ public class TestNarrative : MonoBehaviour
             }
 
             GameController.Instance.backTracked = true;
-            SceneManager.LoadScene(backTrack);
+            Invoke("OpOneBackTrack", 4f);
         }
     }
 
@@ -1105,7 +1137,7 @@ public class TestNarrative : MonoBehaviour
 
             optionFour.SetActive(false);
 
-            Invoke("OpFourDrive", 14f);
+            Invoke("OpFourDrive", 4f);
         }
 
         if (buttFuncFour == 1)
@@ -1338,7 +1370,7 @@ public class TestNarrative : MonoBehaviour
             }
 
             GameController.Instance.backTracked = true;
-            SceneManager.LoadScene(backTrack);
+            Invoke("OpOneBackTrack", 4f);
         }
     }
 }
