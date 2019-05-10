@@ -257,8 +257,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Herold: "We should go left. I''m sure it''ll be much faster" (Move forward
-    to forest)'
+  m_Text: 'Herold: "Lets continue straight ahead and go through the city"'
 --- !u!222 &182161916
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2067,8 +2066,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Carly: "I think it''ll be better if we go right. This should lead us to
-    more supplies" (Move forward to abandoned city)'
+  m_Text: 'Carly: "I think it''ll be safer if we take the next turnoff and head towards
+    the forest"'
 --- !u!222 &1417601556
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2459,11 +2458,14 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Driving along the freeway you see the next city along your journey in the
+  m_Text: "Driving along the freeway you see the next city along your journey in the
     distance, however after a moment you start to notice that some of the building
-    are... swaying. Given the obvious structural insecurity of the city ahead you
-    discuss the possability of an alternate route through the forrest at the next
-    turnoff.
+    are... swaying. \n\nGiven the obvious structural insecurity of the city ahead
+    you discuss the possability of an alternate route through the forest at the next
+    turnoff.\n\nHerold: \"We'd be better off going straight ahead. It'll be much faster
+    for us if we go straight ahead and go through the city\"\n\nCarly: \"But it might
+    be too dangerous to go through the city. We'd be better taking the next turnoff
+    and go to the forest\""
 --- !u!222 &1721019695
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2488,7 +2490,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.88887125, y: 0.49867493}
+  m_AnchoredPosition: {x: -0.88887125, y: 28.3}
   m_SizeDelta: {x: 800, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1722490811
