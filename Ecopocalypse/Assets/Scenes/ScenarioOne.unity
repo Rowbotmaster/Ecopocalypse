@@ -182,8 +182,8 @@ Camera:
   m_GameObject: {fileID: 274283805}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.3584906, g: 0.22556521, b: 0.17417233, a: 0}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
@@ -297,8 +297,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Carly: "What we need to do is be sure we have enough food to make it through
-    the trip. We need to pack more supplies" (Increase the amount of food)'
+  m_Text: 'Carly: I think we should gather more food from the area"'
 --- !u!222 &276902769
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -358,11 +357,19 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Three survivors have gathered outside of Carly, one of the survivors house
-    as they had spent some time at her place during the time of the ecopocalypse as
-    it would all begin at a time the three friends were meeting up. \nHerold, with
-    his engineering skills the three of them managed to fix the car she had. \nRad
-    had suggested they do something and the three came up with ideas of what to do."
+  m_Text: "In a two story house in a suburban area with its paint dirtied from dust
+    surrounded by what looked to be houses once but had large parts of them destroyed
+    crumbling debris surrounding the front yard reduced to dirt, three people had
+    been inside as they were working together to construct something.\n \nThey would
+    eventually come out of the house as the two males, Herold and Rad and a woman,
+    Carly around their twenties has taken out what seemed to be an engine as the oldest
+    males, Herold had placed it in a vehicle then turning to the other two.\n\nH:
+    \"That should do it, it took me awhile but this generator should last until we
+    find others\"\n\nR: \"Now that it's finished we should be sure the car won't stop
+    halfway through the trip\"\n\nH: \"We don't have to worry about that. There's
+    no point wasting time when we should hurry head to the highway\"\n\nC: \"What
+    we should think about is food for the trip. I suggest we get the rest of the food
+    before we get out of here\""
 --- !u!222 &368070099
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -380,14 +387,14 @@ RectTransform:
   m_GameObject: {fileID: 368070097}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.11110891, y: 0.49867493, z: 1}
+  m_LocalScale: {x: 0.11110891, y: 0.3970658, z: 1}
   m_Children: []
   m_Father: {fileID: 1740200585}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.88887125, y: 0.49867493}
+  m_AnchoredPosition: {x: -0.88887125, y: 40.9}
   m_SizeDelta: {x: 800, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &495843033
@@ -1163,8 +1170,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Rad: "The car may be fixed but we will need more supplies to keep the car
-    going" (Increase the amount of Electricity/Fuel)'
+  m_Text: 'Rad: "Lets get more gas to fuel the car/materials to power the car"'
 --- !u!222 &1008219302
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1347,6 +1353,7 @@ RectTransform:
   - {fileID: 1146244795}
   - {fileID: 1616183861}
   - {fileID: 808225564}
+  - {fileID: 1422826303}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1487,8 +1494,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Herold: "We shouldn''t waste time just sitting here. We need to find a
-    shelter with other survivors" (Move forward to next area)'
+  m_Text: 'Herold: "Lets get in the car and move to the nearest highway"'
 --- !u!222 &1127747952
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1816,6 +1822,79 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1381679898}
+  m_CullTransparentMesh: 0
+--- !u!1 &1422826302
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1619534082112850, guid: 94d401723da367041bef26a2bf5b90df,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1422826303}
+  - component: {fileID: 1422826305}
+  - component: {fileID: 1422826304}
+  m_Layer: 5
+  m_Name: playerChoice
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1422826303
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 224647089870955204, guid: 94d401723da367041bef26a2bf5b90df,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1422826302}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3.05718, y: 0.68116, z: 0.33968}
+  m_Children:
+  - {fileID: 1935838285}
+  m_Father: {fileID: 1035542421}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 23, y: -331}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1422826304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 114102836909208184, guid: 94d401723da367041bef26a2bf5b90df,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1422826302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -98529514, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.5188679, g: 0.5188679, b: 0.5188679, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Texture: {fileID: 0}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!222 &1422826305
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 222849007242329722, guid: 94d401723da367041bef26a2bf5b90df,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1422826302}
   m_CullTransparentMesh: 0
 --- !u!1 &1423240723
 GameObject:
@@ -2548,7 +2627,7 @@ RectTransform:
   m_GameObject: {fileID: 1740200584}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 9.000178, y: 2.0053144, z: 1}
+  m_LocalScale: {x: 9.000178, y: 2.5184743, z: 1}
   m_Children:
   - {fileID: 368070100}
   m_Father: {fileID: 1035542421}
@@ -2799,6 +2878,85 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1841406193}
+  m_CullTransparentMesh: 0
+--- !u!1 &1935838284
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1894947727899530, guid: 94d401723da367041bef26a2bf5b90df,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1935838285}
+  - component: {fileID: 1935838287}
+  - component: {fileID: 1935838286}
+  m_Layer: 5
+  m_Name: text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1935838285
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 224632890064913130, guid: 94d401723da367041bef26a2bf5b90df,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1935838284}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.32709873, y: 1.468076, z: 2.9439473}
+  m_Children: []
+  m_Father: {fileID: 1422826303}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 84.9, y: -22}
+  m_SizeDelta: {x: 800, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1935838286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 114164346871831448, guid: 94d401723da367041bef26a2bf5b90df,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1935838284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.13207549, g: 0.13207549, b: 0.13207549, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: What should they do?
+--- !u!222 &1935838287
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 222874871070268052, guid: 94d401723da367041bef26a2bf5b90df,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1935838284}
   m_CullTransparentMesh: 0
 --- !u!1 &2034969455
 GameObject:
