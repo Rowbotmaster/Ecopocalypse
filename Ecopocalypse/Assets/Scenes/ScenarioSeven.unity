@@ -522,7 +522,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Rad: "We should continue forward to the nearest shelter"'
+  m_Text: 'Rad: "We should continue forward away from the equator"'
 --- !u!222 &110697454
 CanvasRenderer:
   m_ObjectHideFlags: 0
