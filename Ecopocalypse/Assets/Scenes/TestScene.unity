@@ -549,17 +549,17 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'global warming seems to be accelerating and the equator is now uninhabitable
-    and that area is expanding, your house is close to the area of uninhabitability
-    and you need to move but 3 of your friends who have lost their cars recently and
-    have been staying with you
+  m_Text: 'Global warming seems to be accelerating and the equator is now uninhabitable
+    and that area is expanding. Your house is close to the area of uninhabitability
+    and you need to move but you have 3 friends who have lost their cars recently
+    and have been staying with you
 
 
-    you own both an electrical and a fossil fueled vehicle, you also own a steam powered
+    You own both an electrical and a fossil fueled vehicle, you also own a steam powered
     generator that car run on any flamable materials
 
 
-    which vehicle will you take'
+    Which vehicle will you take'
 --- !u!222 &370290889
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -952,78 +952,6 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 632744470}
   m_CullTransparentMesh: 0
---- !u!1 &645900339
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1619534082112850, guid: 94d401723da367041bef26a2bf5b90df,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 645900340}
-  - component: {fileID: 645900342}
-  - component: {fileID: 645900341}
-  m_Layer: 5
-  m_Name: test portrait
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &645900340
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 224647089870955204, guid: 94d401723da367041bef26a2bf5b90df,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 645900339}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.25628, y: 0.80631995, z: 0.44676998}
-  m_Children: []
-  m_Father: {fileID: 1561653532}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -188, y: 37}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &645900341
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 114102836909208184, guid: 94d401723da367041bef26a2bf5b90df,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 645900339}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -98529514, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.5188679, g: 0.5188679, b: 0.5188679, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Texture: {fileID: 0}
-  m_UVRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
---- !u!222 &645900342
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 222849007242329722, guid: 94d401723da367041bef26a2bf5b90df,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 645900339}
-  m_CullTransparentMesh: 0
 --- !u!1 &767507462
 GameObject:
   m_ObjectHideFlags: 0
@@ -1260,7 +1188,6 @@ MonoBehaviour:
   electricity: 0.9
   food: 0.9
   localTemp: 0
-  backTrack: 0
   latitudeFloat: 0
   petrolCar: 1
   backTracked: 0
@@ -2821,7 +2748,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1561653528}
-        m_MethodName: PetCar
+        m_MethodName: PetrolCarChoice
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3223,72 +3150,18 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1561653528
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 114671420636204526, guid: 94d401723da367041bef26a2bf5b90df,
-    type: 2}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1561653527}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5837d66374d0d6248b8aa74d5cbddc62, type: 3}
+  m_Script: {fileID: 11500000, guid: c21c4d2f70e5b684a89176e7dc12a77f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  electricityBar: {fileID: 1359952518}
-  foodBar: {fileID: 400367603}
-  localTempBar: {fileID: 1816976805}
-  optionOne: {fileID: 1179615953}
-  optionTwo: {fileID: 1512924015}
-  optionThree: {fileID: 0}
-  optionFour: {fileID: 0}
-  driving: {fileID: 0}
-  boiling: {fileID: 0}
-  engine: {fileID: 0}
-  description: {fileID: 370290888}
-  latitudeText: {fileID: 1174078663}
-  chargeFuel: {fileID: 243184625}
-  optionOnePosOne: 0.1
-  optionOnePosTwo: 0.1
-  optionOneNegOne: 0.1
-  optionOneNegTwo: 0.1
-  optionOneNegThree: 0.1
-  optionTwoPosOne: 0.1
-  optionTwoPosTwo: 0.1
-  optionTwoNegOne: 0.1
-  optionTwoNegTwo: 0.1
-  optionTwoNegThree: 0.1
-  optionThreePosOne: 0.1
-  optionThreePosTwo: 0.1
-  optionThreeNegOne: 0.1
-  optionThreeNegTwo: 0.1
-  optionThreeNegThree: 0.1
-  optionFourPosOne: 0.1
-  optionFourPosTwo: 0.1
-  optionFourNegOne: 0.1
-  optionFourNegTwo: 0.1
-  optionFourNegThree: 0.1
-  opOnePetrol: 0
-  opTwoPetrol: 0
-  opThreePetrol: 0
-  opFourPetrol: 0
-  buttFuncOne: 0
-  buttFuncTwo: 0
-  buttFuncThree: 0
-  buttFuncFour: 0
-  opOneScene: 1
-  opTwoScene: 1
-  opThreeScene: 1
-  opFourScene: 1
-  opOneMove: 0
-  opTwoMove: 0
-  opThreeMove: 0
-  opFourMove: 0
-  opOneOnce: 1
-  opTwoOnce: 1
-  opThreeOnce: 1
-  opFourOnce: 1
 --- !u!114 &1561653529
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3367,7 +3240,6 @@ RectTransform:
   - {fileID: 400367605}
   - {fileID: 1816976807}
   - {fileID: 1054990011}
-  - {fileID: 645900340}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3519,7 +3391,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1666424616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3565,6 +3437,10 @@ MonoBehaviour:
   optionFourNegOne: 0.1
   optionFourNegTwo: 0.1
   optionFourNegThree: 0.1
+  opOneDistance: 1
+  opTwoDistance: 1
+  opThreeDistance: 1
+  opFourDistance: 1
   opOnePetrol: 1
   opTwoPetrol: 1
   opThreePetrol: 1
@@ -3577,6 +3453,7 @@ MonoBehaviour:
   opTwoScene: 1
   opThreeScene: 1
   opFourScene: 1
+  backTrack: 0
   opOneMove: 1
   opTwoMove: 0
   opThreeMove: 0
@@ -3585,6 +3462,8 @@ MonoBehaviour:
   opTwoOnce: 1
   opThreeOnce: 1
   opFourOnce: 1
+  electricityOp: 1
+  fuelOp: 1
 --- !u!114 &1666424617
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4368,7 +4247,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1561653528}
-        m_MethodName: ElecCar
+        m_MethodName: ElectricCarChoice
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
