@@ -871,13 +871,24 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'As the three of them would continue forward they would soon arrive to the
-    foot of a mountain pass.
+  m_Text: 'dam
 
-    When upon closer inspection seemed to have a forest fire close by fairly recently
-    with charcoaled trees around the foot of the mountain.
 
-    To continue forward they would need to drive up the mountain path.'
+    Once they made it onto the bridge connecting the two sides they would stop in
+    the close to the middle of the dam and inspect the surroundings to see they can
+    access the lower areas of the dam.
+
+
+    Herold: "Why are we stopping? We need to keep going forward towards the desert.
+    We don''t have time the time to stay here"
+
+
+    Carly: "Food is important so that we can make it through the desert though. We
+    should look around the staff rooms for food"
+
+
+    Rad: "We especially need to be sure we can keep moving so we should check the
+    generators to see if there''s power"'
 --- !u!222 &604638753
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -902,7 +913,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.88887125, y: 0.49867493}
+  m_AnchoredPosition: {x: -0.88887125, y: 36}
   m_SizeDelta: {x: 800, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &604954029
@@ -1415,6 +1426,10 @@ MonoBehaviour:
   optionFourNegOne: 0.1
   optionFourNegTwo: 0.1
   optionFourNegThree: 0.1
+  opOneDistance: 1
+  opTwoDistance: 1
+  opThreeDistance: 1
+  opFourDistance: 1
   opOnePetrol: 1
   opTwoPetrol: 1
   opThreePetrol: 1
@@ -1436,6 +1451,8 @@ MonoBehaviour:
   opTwoOnce: 1
   opThreeOnce: 1
   opFourOnce: 1
+  electricityOp: 1
+  fuelOp: 1
 --- !u!114 &907938325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1947,8 +1964,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Rad: "I think we should look for something to use to keep the car moving"
-    (Increase the amount of Electricity/Fuel)'
+  m_Text: 'Rad: "Lets check for some more supplies to keep the car moving"'
 --- !u!222 &1172235379
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2099,9 +2115,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Carly: "It''ll take us a while to make it over the mountain and find a
-    shelter at this rate. We should take another break and get more food" (Increase
-    the amount of Food)'
+  m_Text: 'Carly: "I think we should look around the dam for food"'
 --- !u!222 &1385541231
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2673,8 +2687,8 @@ Camera:
   m_GameObject: {fileID: 1864228568}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.35686275, g: 0.22352941, b: 0.17254902, a: 0}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
@@ -2912,8 +2926,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Herold: "If we continue over the mountain we''re sure to be finding our
-    way to others" (Move forward to Desert)'
+  m_Text: 'Herold: "We need to continue across the bridge to reach the desert"'
 --- !u!222 &1970898239
 CanvasRenderer:
   m_ObjectHideFlags: 0

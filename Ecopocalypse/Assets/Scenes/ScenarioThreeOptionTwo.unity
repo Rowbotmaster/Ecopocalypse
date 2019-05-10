@@ -308,7 +308,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2052215176}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &206262660
 GameObject:
@@ -564,7 +564,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -417, y: -82}
+  m_AnchoredPosition: {x: -417, y: -199}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &284520955
@@ -671,8 +671,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Herold: "There''s no use hanging around here. We should keep moving forward"
-    (Move forward to Mountain Pass)'
+  m_Text: 'Herold: "Lets just keep going towards the dam up ahead"'
 --- !u!222 &307387325
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -842,7 +841,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 82, y: -201}
+  m_AnchoredPosition: {x: 82, y: -81}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &557436434
@@ -915,8 +914,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Carly: "I don''t think we should go forward. The buildings could collapse
-    any second now. Let''s turn back" (Return to Fork in road)'
+  m_Text: 'Carly: "I think we need to turn back"'
 --- !u!222 &557436437
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1070,7 +1068,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 82, y: -81}
+  m_AnchoredPosition: {x: 82, y: -198}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &825897614
@@ -1232,8 +1230,8 @@ Camera:
   m_GameObject: {fileID: 875092419}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.35686275, g: 0.22352941, b: 0.17254902, a: 0}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
@@ -1347,8 +1345,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Rad: "We could use some of the debris to fill up the power of the car"
-    (Increase the amount of Electricity)'
+  m_Text: 'Rad: "I think we should use the city debris to get more power for the car"'
 --- !u!222 &892099363
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1384,7 +1381,7 @@ RectTransform:
   m_GameObject: {fileID: 928355210}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 9.000178, y: 2.0053144, z: 1}
+  m_LocalScale: {x: 9.000178, y: 2.392741, z: 1}
   m_Children:
   - {fileID: 1249496441}
   m_Father: {fileID: 2052215176}
@@ -1621,75 +1618,6 @@ MonoBehaviour:
   latitudeFloat: 0
   petrolCar: 0
   backTracked: 0
---- !u!1 &1119587490
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1119587491}
-  - component: {fileID: 1119587493}
-  - component: {fileID: 1119587492}
-  m_Layer: 5
-  m_Name: Portrait 3 (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1119587491
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1119587490}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 2052215176}
-  m_RootOrder: 14
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -417, y: 39}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1119587492
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1119587490}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 0
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: c23ad3960fef9a64487561ac6c2c108a, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
---- !u!222 &1119587493
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1119587490}
-  m_CullTransparentMesh: 0
 --- !u!1 &1121614270
 GameObject:
   m_ObjectHideFlags: 0
@@ -1885,7 +1813,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2052215176}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1173419915
 GameObject:
@@ -2065,11 +1993,25 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: As they would drive along the right path at the fork in the road it took
-    the three some time before they had arrived to the city which upon entry seemed
-    to be abandoned. Buildings were beginning to fall apart, stores had been broken
-    into most of the things they had stolen and there weren't many signs of people
-    remaining. The car is stopped as the three survivors plan what to do next.
+  m_Text: 'city
+
+
+    As they would look around the broken down area they would notice plenty of places
+    to look for different supplies and the roads were not too damanged so they couldn''t
+    move forward.
+
+
+    Rad: We ate a lot of our food supply getting to this city. If we wanna keep ourselves
+    nurished we should restock our food supply. Or at the very least we should use
+    the debris to power the cars engine"
+
+
+    Herold: "We can make it on what we got. It''s better we keep moving so we can
+    find out who survived"
+
+
+    Carly: "I don''t think the buildings around here will have good support. We should
+    turn back and avoid getting crushed"'
 --- !u!222 &1249496440
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2087,14 +2029,14 @@ RectTransform:
   m_GameObject: {fileID: 1249496438}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.11110891, y: 0.49867493, z: 1}
+  m_LocalScale: {x: 0.11110891, y: 0.41793075, z: 1}
   m_Children: []
   m_Father: {fileID: 928355211}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.88887125, y: 0.49867493}
+  m_AnchoredPosition: {x: -0.88887125, y: 22.3}
   m_SizeDelta: {x: 800, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1321577336
@@ -2294,8 +2236,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Rad: "We took a long time to get here, we should try to find somewhere
-    to restock our food supply" (Increase amount of Food)'
+  m_Text: 'Rad: "We need to check the places for more food"'
 --- !u!222 &1321903763
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2650,7 +2591,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2052215176}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1725503801
 GameObject:
@@ -2721,7 +2662,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -417, y: -201}
+  m_AnchoredPosition: {x: -417, y: -25}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1988273028
@@ -2975,6 +2916,10 @@ MonoBehaviour:
   optionFourNegOne: 0.1
   optionFourNegTwo: 0.1
   optionFourNegThree: 0.1
+  opOneDistance: 1
+  opTwoDistance: 1
+  opThreeDistance: 1
+  opFourDistance: 1
   opOnePetrol: 0
   opTwoPetrol: 0
   opThreePetrol: 0
@@ -2996,6 +2941,8 @@ MonoBehaviour:
   opTwoOnce: 1
   opThreeOnce: 1
   opFourOnce: 1
+  electricityOp: 1
+  fuelOp: 1
 --- !u!114 &2052215173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3081,7 +3028,6 @@ RectTransform:
   - {fileID: 284520954}
   - {fileID: 267437316}
   - {fileID: 1988273027}
-  - {fileID: 1119587491}
   - {fileID: 1134675840}
   - {fileID: 1691230168}
   - {fileID: 143457592}

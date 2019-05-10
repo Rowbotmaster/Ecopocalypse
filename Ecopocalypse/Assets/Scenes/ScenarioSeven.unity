@@ -257,6 +257,10 @@ MonoBehaviour:
   optionFourNegOne: 0.1
   optionFourNegTwo: 0.1
   optionFourNegThree: 0.1
+  opOneDistance: 1
+  opTwoDistance: 1
+  opThreeDistance: 1
+  opFourDistance: 1
   opOnePetrol: 0
   opTwoPetrol: 0
   opThreePetrol: 0
@@ -278,6 +282,8 @@ MonoBehaviour:
   opTwoOnce: 1
   opThreeOnce: 1
   opFourOnce: 1
+  electricityOp: 1
+  fuelOp: 1
 --- !u!114 &85542222
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -515,8 +521,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Rad: I feel like we should be getting close. We should keep moving so we
-    can get to a shelter (Move ahead to Shelter)'
+  m_Text: 'Rad: "We should continue forward to the nearest shelter"'
 --- !u!222 &110697454
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1755,11 +1760,23 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: After a long time of driving the three travellers would be left in shock
-    as they would find that the next place they would arrive is what can only be described
-    as a "Rising Shore" as what seemed like a beach was now mostly covered with water
-    and it would be noticeable that there was plenty of driftwood floating nearby
-    along with a few fish but it was clear to see there weren't many fish in the water.
+  m_Text: 'Rising Shore
+
+
+    As they had taken in the tragic but breathtaking sight the trio looked to each
+    other and then back to the surrounding area.
+
+
+    Herold: "I think we should take some time to think about our food. Let''s get
+    as much fish as we can while there''s some still around"
+
+
+    Rad: "No this time we should be getting close to finding the shelter. We should
+    continue forward so we can see if anyone else survived"
+
+
+    Carly: "We might be getting low on power. We should get some of the driftwood
+    so we can fill up the cars battery"'
 --- !u!222 &1310404023
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1784,7 +1801,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.88887125, y: 0.49867493}
+  m_AnchoredPosition: {x: -0.88887125, y: 31.4}
   m_SizeDelta: {x: 800, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1530434921
@@ -1997,8 +2014,8 @@ Camera:
   m_GameObject: {fileID: 1696589410}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.35686275, g: 0.22352941, b: 0.17254902, a: 0}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
@@ -2305,8 +2322,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Carly: "We should try to get as much driftwood as we can so we can use
-    it to power up the car" (Increase the amount of electricity)'
+  m_Text: 'Carly: "I think we should get driftwood to power up the car"'
 --- !u!222 &1812103010
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2385,8 +2401,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Herold: "We should fish out some food for us to eat while we still can"
-    (Increase amount of food)'
+  m_Text: 'Herold: "Lets fish out some food"'
 --- !u!222 &1887073642
 CanvasRenderer:
   m_ObjectHideFlags: 0
