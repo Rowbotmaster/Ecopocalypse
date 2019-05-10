@@ -46,6 +46,11 @@ public class TestNarrative : MonoBehaviour
     public float optionFourNegTwo = 0.1f;
     public float optionFourNegThree = 0.1f;
 
+    public float opOneDistance = 1f;
+    public float opTwoDistance = 1f;
+    public float opThreeDistance = 1f;
+    public float opFourDistance = 1f;
+
     public bool opOnePetrol = false;
     public bool opTwoPetrol = false;
     public bool opThreePetrol = false;
@@ -73,9 +78,35 @@ public class TestNarrative : MonoBehaviour
     public bool opThreeOnce = true;
     public bool opFourOnce = true;
 
+    public bool electricityOp = true;
+    public bool fuelOp = true;
+
     // Use this for initialization
     void Start ()
     {
+        if (GameController.Instance.electricity < 0.1f)
+        {
+            if (electricityOp == false)
+            {
+                description.text = "your batteries have run dry and you cannot find a way to keep your vehicle running";
+
+                optionOne.SetActive(false);
+                optionTwo.SetActive(false);
+                optionThree.SetActive(false);
+                optionFour.SetActive(false);
+            }
+
+            if (fuelOp == false)
+            {
+                description.text = "you run out of fuel and can't find any more nearby";
+
+                optionOne.SetActive(false);
+                optionTwo.SetActive(false);
+                optionThree.SetActive(false);
+                optionFour.SetActive(false);
+            }
+        }
+
         if (GameController.Instance.petrolCar == true)
         {
             chargeFuel.text = "Fuel";
@@ -89,7 +120,7 @@ public class TestNarrative : MonoBehaviour
         localTempBar.fillAmount = GameController.Instance.localTemp;
         electricityBar.fillAmount = GameController.Instance.electricity;
 
-        latitudeText.text = "latitude: " + GameController.Instance.latitudeFloat.ToString() + "/80";
+        latitudeText.text = "latitude: " + GameController.Instance.latitudeFloat.ToString() + "/30";
 
         if (GameController.Instance.petrolCar == true)
         {
@@ -195,56 +226,56 @@ public class TestNarrative : MonoBehaviour
 
     public void OpOneDrive()
     {
-        GameController.Instance.latitudeFloat += 1;
+        GameController.Instance.latitudeFloat += opOneDistance;
         SceneManager.LoadScene(opOneScene);
         optionOne.SetActive(true);
     }
 
     public void OpTwoDrive()
     {
-        GameController.Instance.latitudeFloat += 1;
+        GameController.Instance.latitudeFloat += opOneDistance;
         SceneManager.LoadScene(opTwoScene);
         optionTwo.SetActive(true);
     }
 
     public void OpThreeDrive()
     {
-        GameController.Instance.latitudeFloat += 1;
+        GameController.Instance.latitudeFloat += opOneDistance;
         SceneManager.LoadScene(opThreeScene);
         optionThree.SetActive(true);
     }
 
     public void OpFourDrive()
     {
-        GameController.Instance.latitudeFloat += 1;
+        GameController.Instance.latitudeFloat += opOneDistance;
         SceneManager.LoadScene(opFourScene);
         optionFour.SetActive(true);
     }
 
     public void OpOneBackTrack()
     {
-        GameController.Instance.latitudeFloat -= 1;
+        GameController.Instance.latitudeFloat -= opOneDistance;
         SceneManager.LoadScene(backTrack);
         optionOne.SetActive(true);
     }
 
     public void OpTwoBackTrack()
     {
-        GameController.Instance.latitudeFloat -= 1;
+        GameController.Instance.latitudeFloat -= opOneDistance;
         SceneManager.LoadScene(backTrack);
         optionTwo.SetActive(true);
     }
 
     public void OpThreeBackTrack()
     {
-        GameController.Instance.latitudeFloat -= 1;
+        GameController.Instance.latitudeFloat -= opOneDistance;
         SceneManager.LoadScene(backTrack);
         optionThree.SetActive(true);
     }
 
     public void OpFourBackTrack()
     {
-        GameController.Instance.latitudeFloat -= 1;
+        GameController.Instance.latitudeFloat -= opOneDistance;
         SceneManager.LoadScene(backTrack);
         optionFour.SetActive(true);
     }
@@ -1372,5 +1403,6 @@ public class TestNarrative : MonoBehaviour
             GameController.Instance.backTracked = true;
             Invoke("OpOneBackTrack", 4f);
         }
+        Invoke("energyTest", 0f);
     }
 }
