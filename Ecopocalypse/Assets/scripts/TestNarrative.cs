@@ -84,7 +84,7 @@ public class TestNarrative : MonoBehaviour
     // Use this for initialization
     void Start ()
     {
-        if (GameController.Instance.electricity < 0.1f)
+        if (GameController.Instance.electricity == 0f)
         {
             if (electricityOp == false)
             {
@@ -142,7 +142,7 @@ public class TestNarrative : MonoBehaviour
             }
         }
 
-        if (GameController.Instance.electricity < 0.1f)
+        if (GameController.Instance.electricity == 0f)
         {
             if (opOneMove == true)
             {
@@ -162,7 +162,7 @@ public class TestNarrative : MonoBehaviour
             }
         }
 
-        if (GameController.Instance.food < 0.1f)
+        if (GameController.Instance.food == 0f)
         {
             description.text = "you starve to death";
 
@@ -172,7 +172,7 @@ public class TestNarrative : MonoBehaviour
             optionFour.SetActive(false);
         }
 
-        if (GameController.Instance.localTemp > 0.9f)
+        if (GameController.Instance.localTemp == 1f)
         {
             description.text = "you are caught by a heat wave and overheat";
 
