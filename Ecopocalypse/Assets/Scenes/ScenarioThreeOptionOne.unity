@@ -386,8 +386,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Carly: "We should get some wood to use to get some power for the car" (Increase
-    the amount of Electricity)'
+  m_Text: 'Carly: "Lets use some of the wood from the trees that aren''t dry to power
+    the car"'
 --- !u!222 &140503774
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1048,9 +1048,25 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Traveling through the forrest you notice a destinct lack of most wild life
-    and many plants are wilting and dry, the possability of spontanious forrest fire
+  m_Text: 'Traveling through the forest you notice a destinct lack of most wild life
+    and many plants are wilting and dry, the possability of spontanious forest fire
     might make this area may just as dangerous as the city looked.
+
+
+    As they stopped in the middle of the damaged forest they would check to see if
+    it was possible for them to use anything in the surroundings.
+
+
+    Carly: "A lot of the trees looks like they might still be able to be used for
+    power. We should try to use them for the battery"
+
+
+    Rad: "I don''t think we should leave the plants alone and hunt for some food.
+    It''d be better we keep our strength up"
+
+
+    Herold: "The better choice would be to either continue ahead through the forest
+    to the dam or go back to the highway and go to the city"'
 --- !u!222 &412231931
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1075,7 +1091,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.88887125, y: 0.49867493}
+  m_AnchoredPosition: {x: -0.88887125, y: 39.9}
   m_SizeDelta: {x: 800, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &431705839
@@ -1296,8 +1312,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Rad: "I think we should have someone go hunting for food. We''ll need it
-    so we don''t starve" (Increase amount of Food)'
+  m_Text: 'Rad: "I think someone should go hunting for food"'
 --- !u!222 &472084333
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2089,8 +2104,8 @@ Camera:
   m_GameObject: {fileID: 1438009429}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.35686275, g: 0.22352941, b: 0.17254902, a: 0}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
@@ -2425,8 +2440,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Herold: "We shouldn''t spend too much time in the wood. We need to keep
-    moving" (Move forward to Mountain Pass)'
+  m_Text: 'Herold: "I think we should move on to the damn"'
 --- !u!222 &1621979784
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3158,8 +3172,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Herold: "We''re gonna get lost at this rate. We should turn back and find
-    another way to continue forward" (Move back to Fork in the road)'
+  m_Text: 'Herold: "Lets return back to the highway and go a different route"'
 --- !u!222 &2090746510
 CanvasRenderer:
   m_ObjectHideFlags: 0

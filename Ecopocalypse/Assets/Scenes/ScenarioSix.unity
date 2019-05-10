@@ -183,8 +183,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Carly: This hospital looks abandoned. But even so we might be able to use
-    some of equipment inside to fill up the car (Increase amount of Electricity)'
+  m_Text: 'Carly: "I think it''s better if we use the equipment and seating inside
+    to power up the car"'
 --- !u!222 &2086199
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -405,8 +405,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Herold: "It''s just gonna be empty. I''d rather we keep moving as far away
-    from here as possible" (Move forward to Rising Shore)'
+  m_Text: 'Herold: "I think we should just keep going towards the shore and closer
+    to finding anyone we know"'
 --- !u!222 &287046041
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -647,8 +647,8 @@ Camera:
   m_GameObject: {fileID: 507945362}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.35686275, g: 0.22352941, b: 0.17254902, a: 0}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
@@ -2279,8 +2279,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Rad: It''s a good thing we found this hospital. We should head inside and
-    look to see if any food was left behind (Increase amount of Food)'
+  m_Text: 'Rad: "Lets get all the food we can from inside the building"'
 --- !u!222 &1436595451
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2832,9 +2831,25 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Faroff in the distance you spot a tiny glimour of hope, what could be an
+  m_Text: 'Faroff in the distance you spot a tiny glimour of hope, what could be an
     island in this ocean of sand, as you come closer it starts to become clearer and
     you see a small mining town.
+
+
+    Seeing the mining town they would continue as they drive towards it and once they
+    arrived they got out and would look around before spotting a building that seemed
+    to be for survicing guest.
+
+
+    Rad: "This place should still have food that we can add to our supplies"
+
+
+    Carly: "But it might be better for us to use things we may find in there to use
+    a free source for our car"
+
+
+    Herold: "It''ll just be empty. The sooner we move away from this mining town the
+    closer we get to the shore"'
 --- !u!222 &1769070133
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2859,7 +2874,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.88887125, y: 0.49867493}
+  m_AnchoredPosition: {x: -0.88887125, y: 35.7}
   m_SizeDelta: {x: 800, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1816427668

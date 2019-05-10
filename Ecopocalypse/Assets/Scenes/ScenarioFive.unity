@@ -291,9 +291,25 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: The road ahead seems to streatch on forever across the ocean of sand called
-    a desert. You've heared of people dying out here when they didn't come properly
+  m_Text: 'The road ahead seems to streatch on forever across the ocean of sand called
+    a desert. You''ve heared of people dying out here when they didn''t come properly
     prepared, that was before global warming got out of hand.
+
+
+    As they would think about what they had heard about the fate of many in the desert
+    they would look to each other inside the car dealing with the heat of the desert.
+
+
+    Carly: "There''s no way what we have will be able to keep us going in this heat.
+    We should turn back"
+
+
+    Rad: "I agree with Carly. It would be better if we return to the dam and get more
+    supplies before trying to get through the desert"
+
+
+    Herold: "We don''t need to go back, it''s better for us to just keep moving forward
+    so we can make it to the mining town at the end of the desert"'
 --- !u!222 &352258840
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -311,14 +327,14 @@ RectTransform:
   m_GameObject: {fileID: 352258838}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.11110891, y: 0.49867493, z: 1}
+  m_LocalScale: {x: 0.11110891, y: 0.45458063, z: 1}
   m_Children: []
   m_Father: {fileID: 733560470}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.88887125, y: 0.49867493}
+  m_AnchoredPosition: {x: -0.88887125, y: 39.8}
   m_SizeDelta: {x: 800, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &445592883
@@ -391,8 +407,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Carly: "We need to hurry out of the desert before we get dehydrated from
-    the heat" (Move ahead to Country Hospital)'
+  m_Text: 'Carly & Rad: "Lets get more supplies back at the dam before moving forward"'
 --- !u!222 &445592886
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -435,7 +450,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 82, y: -201}
+  m_AnchoredPosition: {x: 82, y: -81}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &502903950
@@ -542,8 +557,8 @@ Camera:
   m_GameObject: {fileID: 535114523}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.35686275, g: 0.22352941, b: 0.17254902, a: 0}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
@@ -856,7 +871,7 @@ RectTransform:
   m_GameObject: {fileID: 733560469}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 9.000178, y: 2.0053144, z: 1}
+  m_LocalScale: {x: 9.000178, y: 2.1998298, z: 1}
   m_Children:
   - {fileID: 352258841}
   m_Father: {fileID: 1528530355}
@@ -972,8 +987,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Herold: "We won''t be able ot make it through this heat with what we have.
-    We need to go back and get more supplies" (Move back to Mountain Pass)'
+  m_Text: 'Herold: "I think it will be better for us to continue through the desert
+    to the mining town"'
 --- !u!222 &846086665
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1346,7 +1361,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1007323186
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1365,7 +1380,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 82, y: -81}
+  m_AnchoredPosition: {x: 82, y: -200}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1033642940
@@ -1694,7 +1709,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -417, y: -204}
+  m_AnchoredPosition: {x: -417, y: -84}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1283792829
@@ -2555,7 +2570,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -417, y: 39}
+  m_AnchoredPosition: {x: -525, y: 38}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1761726656
@@ -2967,7 +2982,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -417, y: -81}
+  m_AnchoredPosition: {x: -417, y: 37}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1870110485
