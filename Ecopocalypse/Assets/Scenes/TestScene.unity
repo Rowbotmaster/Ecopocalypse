@@ -550,9 +550,9 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: 'Global warming seems to be accelerating and the equator is now uninhabitable
-    and that area is expanding. Your house is close to the area of uninhabitability
-    and you need to move but you have 3 friends who have lost their cars recently
-    and have been staying with you
+    with the area expanding. Your house is close to the area of uninhabitability and
+    you need to move but you have 3 friends who have lost their cars recently and
+    have been staying with you
 
 
     You own both an electrical and a fossil fueled vehicle, you also own a steam powered
@@ -4016,7 +4016,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: electric
+  m_Text: Electric
 --- !u!222 &1787388577
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4437,7 +4437,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: fossil fuel
+  m_Text: Fossil fuel
 --- !u!222 &2009638767
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -297,7 +297,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Carly: I think we should gather more food from the area"'
+  m_Text: 'Carly: "I think we should gather more food from the area"'
 --- !u!222 &276902769
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -359,10 +359,10 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "In a two story house in a suburban area with its paint dirtied from dust,
     surrounded by what looked to be houses once, but had large parts of them destroyed
-    crumbling debris surrounding the front yard reduced to dirt. \n\nThree people
-    had been inside as they were working together to construct something.\n \nThey
-    would eventually come out of the house as the two males, Herold and Rad and a
-    woman, Carly around their twenties has taken out what seemed to be an engine.
+    crumbling debris surrounding the front yard reduced to withered gress. \n\nThree
+    people had been inside as they were working together to construct something.\n
+    \nThey would eventually come out of the house as the two males, Herold and Rad
+    and a woman, Carly around their twenties has taken out what seemed to be an engine.
     The oldest males, Herold had placed it in a vehicle then turning to the other
     two.\n\nHerold: \"That should do it, it took me awhile but this generator should
     last until we find others\"\n\nRad: \"Now that it's finished we should be sure
