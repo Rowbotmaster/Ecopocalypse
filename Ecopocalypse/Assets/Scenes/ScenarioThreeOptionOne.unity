@@ -1048,11 +1048,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: While driving along the left road Rad, Carly and Herold would end up in
-    a forest and as they made it to a open area in the forest they decided to stop
-    and take a short break. The area they stopped in would have greenary but most
-    of the plant life was either withered or dehydrated due to the change in climate.
-    However it seemed like there were still animals nearby.
+  m_Text: Traveling through the forrest you notice a destinct lack of most wild life
+    and many plants are wilting and dry, the possability of spontanious forrest fire
+    might make this area may just as dangerous as the city looked.
 --- !u!222 &412231931
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2502,6 +2500,10 @@ MonoBehaviour:
   optionFourNegOne: 0.1
   optionFourNegTwo: 0.1
   optionFourNegThree: 0.1
+  opOneDistance: 1
+  opTwoDistance: 1
+  opThreeDistance: 1
+  opFourDistance: 1
   opOnePetrol: 0
   opTwoPetrol: 0
   opThreePetrol: 0
@@ -2523,6 +2525,8 @@ MonoBehaviour:
   opTwoOnce: 1
   opThreeOnce: 1
   opFourOnce: 1
+  electricityOp: 1
+  fuelOp: 1
 --- !u!114 &1698612362
 MonoBehaviour:
   m_ObjectHideFlags: 0
