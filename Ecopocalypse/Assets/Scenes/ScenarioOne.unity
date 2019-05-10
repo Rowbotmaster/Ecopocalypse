@@ -357,19 +357,19 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "In a two story house in a suburban area with its paint dirtied from dust
-    surrounded by what looked to be houses once but had large parts of them destroyed
-    crumbling debris surrounding the front yard reduced to dirt, three people had
-    been inside as they were working together to construct something.\n \nThey would
-    eventually come out of the house as the two males, Herold and Rad and a woman,
-    Carly around their twenties has taken out what seemed to be an engine as the oldest
-    males, Herold had placed it in a vehicle then turning to the other two.\n\nH:
-    \"That should do it, it took me awhile but this generator should last until we
-    find others\"\n\nR: \"Now that it's finished we should be sure the car won't stop
-    halfway through the trip\"\n\nH: \"We don't have to worry about that. There's
-    no point wasting time when we should hurry head to the highway\"\n\nC: \"What
-    we should think about is food for the trip. I suggest we get the rest of the food
-    before we get out of here\""
+  m_Text: "In a two story house in a suburban area with its paint dirtied from dust,
+    surrounded by what looked to be houses once, but had large parts of them destroyed
+    crumbling debris surrounding the front yard reduced to dirt. \n\nThree people
+    had been inside as they were working together to construct something.\n \nThey
+    would eventually come out of the house as the two males, Herold and Rad and a
+    woman, Carly around their twenties has taken out what seemed to be an engine.
+    The oldest males, Herold had placed it in a vehicle then turning to the other
+    two.\n\nHerold: \"That should do it, it took me awhile but this generator should
+    last until we find others\"\n\nRad: \"Now that it's finished we should be sure
+    the car won't stop halfway through the trip away from the equator\"\n\nHerold:
+    \"We don't have to worry about that. There's no point wasting time when we should
+    hurry head to the highway\"\n\nCarly: \"What we should think about is food for
+    the trip. I suggest we get the rest of the food before we get out of here\""
 --- !u!222 &368070099
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1244,6 +1244,10 @@ MonoBehaviour:
   optionFourNegOne: 0.1
   optionFourNegTwo: 0.1
   optionFourNegThree: 0.1
+  opOneDistance: 1
+  opTwoDistance: 1
+  opThreeDistance: 1
+  opFourDistance: 1
   opOnePetrol: 1
   opTwoPetrol: 1
   opThreePetrol: 1
@@ -1265,6 +1269,8 @@ MonoBehaviour:
   opTwoOnce: 1
   opThreeOnce: 1
   opFourOnce: 1
+  electricityOp: 1
+  fuelOp: 1
 --- !u!114 &1035542418
 MonoBehaviour:
   m_ObjectHideFlags: 0
